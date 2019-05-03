@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "EbluAdvertisementToolkit"
-  s.version      = "0.0.2"
-  s.summary      = "Advertisement Toolkit."
+  s.name         = "EbluImagePicker"
+  s.version      = "0.0.1"
+  s.summary      = "Image Picker"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  =  "Advertisement Toolkit Demo"
 
-  s.homepage     = "https://github.com/cfive2016/EbluAdvertisementToolkit"
+  s.homepage     = "https://github.com/cfive2016/EbluImagePickerFramework"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/cfive2016/EbluAdvertisementToolkit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/cfive2016/EbluImagePickerFramework.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-    s.vendored_frameworks = "products/EbluAdvertisementToolkit.framework"
+    s.vendored_frameworks = "products/EbluImagePicker.framework"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
@@ -131,6 +131,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "Google-Mobile-Ads-SDK", "~> 7.35.2"
+  s.dependency "Masonry", '~> 1.1.0'
 
 end

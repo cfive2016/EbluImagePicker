@@ -1,0 +1,6 @@
+framework module EbluImagePicker {
+  umbrella header "EbluImagePicker.h"
+
+  export *
+  module * { export * }
+}

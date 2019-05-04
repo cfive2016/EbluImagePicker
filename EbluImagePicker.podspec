@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EbluImagePicker"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Image Picker"
 
   # This description is used to generate tags and improve search results.
@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
+    s.resource  = "products/EbluImagePicker.framework/EbluImagePicker.bundle"
   # s.resources = "Resources/*.png"
     s.vendored_frameworks = "products/EbluImagePicker.framework"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"

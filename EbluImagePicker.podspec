@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-    s.resource  = "products/EbluImagePicker.framework/EbluImagePicker.bundle"
+    s.resource  = "products/EbluImagePicker.bundle"
   # s.resources = "Resources/*.png"
     s.vendored_frameworks = "products/EbluImagePicker.framework"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
